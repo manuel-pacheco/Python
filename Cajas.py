@@ -33,7 +33,7 @@ def destroy():
     resultados= Tk()
     resultados.title("Resultados ingresados de cajas")
     resultados.geometry("450x150")
-    resultados.configure(background='light slate blue')
+    resultados.configure(background='peach puff')
 
     E2=Label(resultados,text="Cajas Chicas", bg="dark slate gray",fg="white")
     E2.grid(column=1,row=1,sticky="e",padx=10,pady=10)
@@ -73,7 +73,6 @@ def menuprincipal():
 principal=tk.Tk()
 principal.title("EXAMEN S.A. DE C.V.")
 principal.geometry("500x190")
-principal.configure(background='navajo white')
 
 image=tk.PhotoImage(file="tecno.gif")
 image=image.subsample(1,1)
