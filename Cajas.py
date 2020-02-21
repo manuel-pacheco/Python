@@ -58,8 +58,20 @@ def bienvenido():
     boton1.grid(column=0,row=1,sticky="e",padx=10,pady=10)
 
 def menuprincipal():
+    global c
+    global m
+    global g
+    
     E2=Label(principal,text="Seleccione la opcion deceada")
     E2.grid(columnspan=3,row=0,sticky="e",padx=10,pady=10)
+    E2=Label(principal,text=c)
+    E2.grid(column=1,row=2,sticky="e",padx=10,pady=10)
+    E2=Label(principal,text=m)
+    E2.grid(column=2,row=2,sticky="e",padx=10,pady=10)
+    E2=Label(principal,text=g)
+    E2.grid(column=3,row=2,sticky="e",padx=10,pady=10)
+    
+
     
     boton1=tk.Button(principal,text='Caja Chica',command=BoxCH,fg="blue")
     boton1.grid(column=1,row=1,sticky="e",padx=10,pady=10)
@@ -69,6 +81,7 @@ def menuprincipal():
     boton3.grid(column=3,row=1,sticky="e",padx=10,pady=10)
     boton4=tk.Button(principal,text='Terminar Pedido',command=destroy,fg="blue")
     boton4.grid(column=2,row=2,sticky="e",padx=10,pady=10)
+    E2.after(1000,menuprincipal)
 
 principal=tk.Tk()
 principal.title("EXAMEN S.A. DE C.V.")
