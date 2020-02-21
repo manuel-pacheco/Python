@@ -80,7 +80,7 @@ def menuprincipal():
     boton3=tk.Button(principal,text='Caja Grande',command=BoxG,fg="gold")
     boton3.grid(column=3,row=1,sticky="e",padx=10,pady=10)
     boton4=tk.Button(principal,text='Terminar Pedido',command=destroy,fg="blue")
-    boton4.grid(column=2,row=2,sticky="e",padx=10,pady=10)
+    boton4.grid(column=2,row=3,sticky="e",padx=10,pady=10)
     E2.after(1000,menuprincipal)
 
 principal=tk.Tk()
