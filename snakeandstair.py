@@ -1,5 +1,8 @@
 #ITC Instituto Tecnologico Nacional de Mexico en Celaya
 #by: Sotelo Pacheco José Manuel
+#    Villagomez Daniel
+#    Peña Martinez Josè Rodrigo
+#    Brandon
 #Fecha: Jueves 27 de febrero del 2020
 #Programación avanzada
 
